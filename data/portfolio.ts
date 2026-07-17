@@ -167,7 +167,7 @@ export const skills = {
 export const experience = [
   {
     company: "Uforia Infotech Inc",
-    role: "Frontend Developer",
+    role: "Software Developer",
     date: "Apr 2022 — May 2023",
     bullets: [
       "Built and maintained reusable React components for production web applications.",
@@ -185,7 +185,7 @@ export const experience = [
   },
   {
     company: "Silicon Centre",
-    role: "Frontend Developer",
+    role: "Software Developer",
     date: "Mar 2021 — Mar 2022",
     bullets: [
       "Translated business requirements into responsive internal management flows with React and Redux.",

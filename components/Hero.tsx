@@ -19,13 +19,13 @@ export function Hero() {
           </span>
         </h1>
         <h2>
-          Full-stack software engineer building reliable React/TypeScript
-          products and applied-AI systems.
+          Full-stack software engineer building reliable web products and
+          applied-AI systems.
         </h2>
         <p className="intro">
-          3+ years developing web applications, APIs, data workflows, and tested
-          user experiences. Based in Germany and completing an M.Sc. in
-          Artificial Intelligence.
+          3+ years of experience delivering web applications, APIs, data
+          workflows, and tested user experiences. Based in Germany and currently
+          completing an M.Sc. in Artificial Intelligence.
         </p>
         <div className="actions">
           <a href="#work" className="button primary" data-magnetic>
