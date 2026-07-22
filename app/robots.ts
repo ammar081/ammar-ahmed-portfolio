@@ -1,7 +1,9 @@
 import type { MetadataRoute } from "next";
+import { siteUrl } from "@/data/portfolio";
+
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: { userAgent: "*", allow: "/" },
-    sitemap: "https://ammar-ahmed.dev/sitemap.xml",
+    sitemap: `${siteUrl}/sitemap.xml`,
   };
 }

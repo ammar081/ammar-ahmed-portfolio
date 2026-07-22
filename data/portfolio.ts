@@ -2,6 +2,8 @@ export type Mode = "recruiter" | "engineer";
 export type ProjectTab =
   "Overview" | "Product" | "Architecture" | "Engineering" | "Quality";
 
+export const siteUrl = "https://ammar-ahmed-portfolio.onrender.com";
+
 export const profile = {
   name: "Ammar Ahmed",
   location: "Cottbus, Germany",

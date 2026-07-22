@@ -1,12 +1,13 @@
 import type { Metadata } from "next";
 import { Manrope, Space_Grotesk } from "next/font/google";
+import { siteUrl } from "@/data/portfolio";
 import "./globals.css";
 
 const manrope = Manrope({ subsets: ["latin"], variable: "--font-body" });
 const space = Space_Grotesk({ subsets: ["latin"], variable: "--font-display" });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ammar-ahmed.dev"),
+  metadataBase: new URL(siteUrl),
   title: "Ammar Ahmed — Full-Stack Developer & Applied AI Engineer",
   description:
     "Full-stack developer and applied AI engineer building production-ready products with React, TypeScript, Node.js and Python.",

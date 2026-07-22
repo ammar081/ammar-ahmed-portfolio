@@ -12,6 +12,9 @@ import {
 } from "lucide-react";
 import type { Mode, Project, ProjectTab } from "@/data/portfolio";
 
+const isDataStep = (label: string) =>
+  /database|storage|postgres|sql|vector|redis/i.test(label);
+
 const recruiterTabs = [
   "Overview",
   "Product",
@@ -185,7 +188,7 @@ export function ProjectCard({
               {project.architecture.map((item, index) => (
                 <div key={item}>
                   <span>
-                    {index === 3 ? (
+                    {isDataStep(item) ? (
                       <Database size={18} aria-hidden="true" />
                     ) : (
                       <Layers3 size={18} aria-hidden="true" />
